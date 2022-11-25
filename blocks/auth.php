@@ -12,7 +12,7 @@
         exit();
     }
 
-    setcookie('user_name', $user['name'], time() + 60 * 60 * 24, '/');
+    setcookie('user_name', $user['name'], time() + 60 * 60 * 24 * 365, '/');
 
     $mysql->close();
     header("Location: /");

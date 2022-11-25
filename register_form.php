@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col">
 
-                    <form action="validation_form/register.php" method="post">
+                    <form action="blocks/register.php" method="post">
 
                         <div class="form-group">
                             <input type="text" class="form-control" id="phone" name="phone" placeholder="Номер телефона">
