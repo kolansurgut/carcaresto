@@ -20,7 +20,7 @@
                 <button class="auth_btn" type="submit">Войти</button>
                 <a class="back_btn" href="index.php">Назад</a>
                 <br>
-                <a href="register_form.php">Регистрация</a>
+                <p class="au_text">Нет аккаунта? <a class="au_btn" href="register_form.php">Зарегистрируйтесь.</a></p>
             </form>
         </div>
     </body>

@@ -33,7 +33,17 @@
         </div>
     </div>
     <div class="photo"></div>
-    <div class="info"></div>
+    <div class="info">
+        <div class="_info">
+            <img class="info_photo" src="img/san.jpg">
+        </div>
+        <div class="_info">
+            <img class="info_photo" src="img/san.jpg">
+        </div>
+        <div class="_info">
+            <img class="info_photo" src="img/san.jpg">
+        </div>
+    </div>
     <div class="places"></div>
     <div class="booking"></div>
     <div class="footer"></div>

@@ -9,7 +9,7 @@
     $user = $auth->fetch_assoc();
 
     if(count($user) == 0) {
-        exit();
+        header("Location: /auth_form.php");
     }
 
     setcookie('user_name', $user['name'], time() + 60 * 60 * 24 * 365, '/');

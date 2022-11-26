@@ -30,6 +30,31 @@ input{
     border: 2px solid rgb(100,100,100);
 }
 
+.reg_text{
+    margin-left: 640px;
+}
+
+.reg_btn{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.reg_btn:hover{
+    color: blue;
+}
+
+.au_text{
+    margin-left: 620px;
+}
+
+.au_btn{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.au_btn:hover{
+    color: blue;
+}
 
 /*body{*/
 /*    margin-left: auto;*/
