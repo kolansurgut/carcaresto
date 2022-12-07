@@ -171,24 +171,80 @@ a:hover{
     background-color: darkslategray;
 }
 
-.info{
-    display: flex;
-    margin: 100px 0px 100px 315px;
+.all_tarif{
+    position: absolute;
+    width: 1740px;
+    height: 636.19px;
+    left: 90px;
+    top: 985px;
+
 }
 
-._info{
-    width: 250px;
-    height: 400px;
-    background-color: lightpink;
-    margin-left: 20px;
-    margin-right: 20px;
+.tarif_top{
+    position: absolute;
+    left: 7.01%;
+    right: 65%;
+    top: 0%;
+    bottom: 83.28%;
 }
 
-.info_photo{
-    width: 200px;
-    height: 200px;
-    margin-left: 25px;
-    margin-top: 25px;
+.tarif_text_1{
+    margin: 0% 0% 0% 0%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+
+    color: #333333;
+
+}
+
+.tarif_text_2{
+    margin: 0% 0% 0% 0%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+
+    color: #FF5C00;
+}
+
+.tarif_line{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20.12%;
+    bottom: 79.88%;
+
+    border: 1px solid #000000;
+}
+
+.tarif_1{
+    position: absolute;
+    left: 1.72%;
+    right: 70.98%;
+    top: 24.84%;
+    bottom: 0.5%;
+}
+
+.tarif_2{
+    position: absolute;
+    left: 36.38%;
+    right: 36.32%;
+    top: 24.84%;
+    bottom: 0.48%;
+
+}
+
+.tarif_3{
+    position: absolute;
+    left: 70.98%;
+    right: 1.72%;
+    top: 24.84%;
+    bottom: 0%;
+
 }
 
 .citata{

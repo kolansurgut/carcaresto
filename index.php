@@ -45,7 +45,24 @@
         </div>
     </div>
 
-    <div class="info">
+    <div class="all_tarif">
+        <div class="tarif_top">
+            <p class="tarif_text_1">ТАРИФЫ</p>
+            <p class="tarif_text_2">Что мы предлогаем?</p>
+        </div>
+        <div class="tarif_line"></div>
+        <div class="tarif_1">
+            <div></div>
+            <img src="img/pic_t1.svg">
+        </div>
+        <div class="tarif_2">
+            <div></div>
+            <img src="img/pic_t2.png">
+        </div>
+        <div class="tarif_3">
+            <div></div>
+            <img src="img/pic_t3.png">
+        </div>
     </div>
 
     <div class="citata">
