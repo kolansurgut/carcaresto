@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
+
     <div class="header">
         <div class="logo">
             <img class="_logo" id="logo" src="img/logo.png">
@@ -32,20 +33,27 @@
             <?php endif; ?>
         </div>
     </div>
-    <div class="photo"></div>
-    <div class="info">
-        <div class="_info">
-            <img class="info_photo" src="img/san.jpg">
-        </div>
-        <div class="_info">
-            <img class="info_photo" src="img/san.jpg">
-        </div>
-        <div class="_info">
-            <img class="info_photo" src="img/san.jpg">
+
+    <div class="first_screen">
+        <img class="memsto" src="/img/memsto.png">
+        <div class="filtr"></div>
+        <p class="first_screen_text">Станция для самостоятельного технического обслуживания</p>
+        <div class="first_screen_button">
+            <div class="first_screen_button_bg">
+                <p class="first_screen_button_text">Наша презентация</p>
+            </div>
         </div>
     </div>
-    <div class="places"></div>
-    <div class="booking"></div>
-    <div class="footer"></div>
+
+    <div class="info">
+    </div>
+
+    <div class="citata">
+        <div class="citata_line_up"></div>
+        <div class="citata_line_down"></div>
+        <div class="citata_fon"></div>
+        <p class="citata_text">Специально для вас мы подготовим расходные материалы и<br>инструменты, чтобы ремонт проходил наиболее комфортно.</p>
+        <img class="citata_icon" src="img/citata_icon.png">
+    </div>
     </body>
 </html>

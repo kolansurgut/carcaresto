@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .header{
     width: 100%;
     height: 100px;
@@ -16,13 +20,6 @@ a:hover{
     color: gray;
 }
 
-.photo{
-    width: 100%;
-    height: 600px;
-    background-image: url("/img/surgut.jpg");
-    background-size: auto 600px;
-}
-
 .logo{
     height: 100%;
     width: 20%;
@@ -32,6 +29,97 @@ a:hover{
     margin-left: 40px;
     width: auto;
     height: 90px;
+}
+
+.first_screen{
+    position: absolute;
+    width: 1920px;
+    height: 763px;
+    left: 0px;
+    top: 141px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.5));
+}
+
+.first_screen_button{
+    left: 77.34%;
+    right: 6.25%;
+    top: 49.15%;
+    bottom: 39.45%;
+}
+
+.first_screen_button_bg{
+    position: absolute;
+    left: 77.34%;
+    right: 6.25%;
+    top: 60.15%;
+    bottom: 27.45%;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+
+@font-face {
+    font-family: 'Lato Medium';
+    src: url(/img/fonts/lato/Lato-Medium.ttf);
+}
+
+.first_screen_button_text{
+    left: 78.37%;
+    right: 7.41%;
+    top: 52.72%;
+    bottom: 43.09%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 138%;
+    /* identical to box height, or 32px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.first_screen_text{
+    position: absolute;
+    left: 48.18%;
+    right: 6.25%;
+    top: 15.33%;
+    bottom: 36.66%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 132%;
+    /* or 84px */
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.filtr{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.memsto{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.13%;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
 }
 
 .nav{
@@ -103,6 +191,68 @@ a:hover{
     margin-top: 25px;
 }
 
-body{
-    margin: 0px;
+.citata{
+    position: absolute;
+    width: 1920px;
+    height: 185px;
+    left: 0px;
+    top: 1724px;
+
+}
+
+.citata_line_up{
+    position: absolute;
+    left: 4.69%;
+    right: 8.69%;
+    top: 0%;
+    bottom: 100%;
+
+    border: 4px solid #FFBD5A;
+}
+
+.citata_line_down{
+    position: absolute;
+    left: 4.69%;
+    right: 8.69%;
+    top: 100%;
+    bottom: 0%;
+
+    border: 4px solid #FFBD5A;
+}
+
+.citata_icon{
+    position: absolute;
+    left: 6.25%;
+    right: 88.4%;
+    top: 30.99%;
+    bottom: 28.29%;
+}
+
+.citata_text{
+    position: absolute;
+    left: 12.71%;
+    right: 12.65%;
+    top: 18.92%;
+    bottom: 16.22%;
+    margin: 0% 0% 0% 0%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #4C4948;
+
+}
+
+.citata_fon{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 4%;
+    bottom: 0%;
+
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(214, 214, 214, 0.530319) 51.32%, rgba(255, 255, 255, 0) 100%);
 }
