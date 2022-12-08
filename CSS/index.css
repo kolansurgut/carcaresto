@@ -2,35 +2,6 @@ body{
     margin: 0px;
 }
 
-.header{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    font-size: 28px;
-    font-family: 'Lato', sans-serif;
-}
-
-a, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover{
-    text-decoration: none;
-    color: gray;
-}
-
-.logo{
-    height: 100%;
-    width: 20%;
-}
-
-._logo{
-    margin-left: 40px;
-    width: auto;
-    height: 90px;
-}
-
 .first_screen{
     position: absolute;
     width: 1920px;
@@ -122,38 +93,176 @@ a:hover{
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
 }
 
-.nav{
-    height: 100%;
-    width: 80%;
-    display: flex;
+
+
+/*NAVIGATION*/
+
+
+
+.navigation{
+    position: absolute;
+    width: 1527px;
+    height: 103px;
+    left: 215px;
+    top: 22px;
 }
 
-._nav{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 30px;
+.logo{
+    position: absolute;
+    left: 0%;
+    right: 87.8%;
+    top: 0%;
+    bottom: 0%;
+
+    height: 100%;
+    width: 13%;
+
+}
+
+.navigation_menu{
  }
 
-.auth{
-    height: 100%;
-    width: 20%;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.navigation_text_1{
+    position: absolute;
+    left: 22.92%;
+    right: 68.55%;
+    top: 38.35%;
+    bottom: 38.35%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Text color */
+
+    color: #222222;
+}
+
+.navigation_text_2{
+
+    position: absolute;
+    left: 35.36%;
+    right: 56.78%;
+    top: 38.35%;
+    bottom: 38.35%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Text color */
+
+    color: #222222;
+
+}
+
+.navigation_text_3{
+    position: absolute;
+    left: 47.81%;
+    right: 45.65%;
+    top: 38.35%;
+    bottom: 38.35%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Text color */
+
+    color: #222222;
+}
+
+.navigation_text_4{
+    position: absolute;
+    left: 60.25%;
+    right: 33.73%;
+    top: 38.35%;
+    bottom: 38.35%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Text color */
+
+    color: #222222;
+}
+
+.navigation_text_5{
+    position: absolute;
+    left: 72.69%;
+    right: 16.09%;
+    top: 38.35%;
+    bottom: 38.35%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Text color */
+
+    color: #222222;
+
+}
+
+.log_in{
+    position: absolute;
+    left: 91.36%;
+    right: 0%;
+    top: 30.1%;
+    bottom: 30.1%;
+
 }
 
 .img_auth{
-    margin-left: 10px;
-    margin-top: 30px;
-    background-color: orangered;
-    width: 40px;
-    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
 }
 
-._auth{
-    margin-right: 80px;
-    margin-top: 30px;
-    margin-left: 10px;
+.auth_text {
+    position: absolute;
+    left: 93.84%;
+    top: 10%;
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 138%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
 }
 
 .lk{
@@ -171,11 +280,17 @@ a:hover{
     background-color: darkslategray;
 }
 
+
+
+/*TARIF*/
+
+
+
 .all_tarif{
     position: absolute;
     width: 1740px;
     height: 636.19px;
-    left: 90px;
+    left: 50px;
     top: 985px;
 
 }
@@ -213,12 +328,13 @@ a:hover{
 
 .tarif_line{
     position: absolute;
-    left: 0%;
-    right: 0%;
+    left: 2%;
+    right: 2%;
     top: 20.12%;
     bottom: 79.88%;
 
-    border: 1px solid #000000;
+    background-color: #000000;
+    height: 2px;
 }
 
 .tarif_1{
@@ -244,8 +360,112 @@ a:hover{
     right: 1.72%;
     top: 24.84%;
     bottom: 0%;
-
 }
+
+.tarif_baner{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 60%;
+    bottom: 0%;
+}
+
+.tarif_baner_bg{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: rgba(215, 215, 215, 0.9);
+}
+
+.tarif_name{
+    position: absolute;
+    left: 0%;
+    right: 3%;
+    top: 15%;
+    bottom: 18.47%;
+    margin: 0%;
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #240000;
+}
+
+.tarif_baner_line_horizontal{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 48%;
+    background-color: #000000;
+    height: 2px;
+}
+
+.tarif_hour{
+    position: absolute;
+    left: 15%;
+    top: 33%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 38px;
+    /* or 95% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF5C00;
+
+    mix-blend-mode: normal;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tarif_minets{
+    position: absolute;
+    right: 11%;
+    top: 33%;
+
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 38px;
+    /* or 95% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FF5C00;
+
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.tarif_baner_line_vertical{
+    position: absolute;
+    left: 42%;
+    right: 45%;
+    top: 75%;
+    bottom: 0%;
+    background-color: #EBEBEB;
+    height: 1.5px;
+    width: 80px;
+    transform: rotate(90deg);
+}
+
+
+
+/*CITATA*/
+
+
+
 
 .citata{
     position: absolute;

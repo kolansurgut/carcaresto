@@ -10,23 +10,21 @@
     </head>
     <body>
 
-    <div class="header">
-        <div class="logo">
-            <img class="_logo" id="logo" src="img/logo.png">
+    <div class="navigation">
+        <img class="logo" src="img/logo.png">
+        <div class="navigation_menu">
+            <a class="navigation_text_1" href="#">главная</a>
+            <a class="navigation_text_2" href="#">тарифы</a>
+            <a class="navigation_text_3" href="#">уроки</a>
+            <a class="navigation_text_4" href="#">о нас</a>
+            <a class="navigation_text_5" href="#">контакты</a>
         </div>
-        <div class="nav">
-            <a class="_nav" href="#">главная</a>
-            <a class="_nav" href="#">тарифы</a>
-            <a class="_nav" href="#">уроки</a>
-            <a class="_nav" href="#">о нас</a>
-            <a class="_nav" href="#">контакты</a>
-        </div>
-        <div  class="auth">
+        <div  class="log_in">
             <?php
             if($_COOKIE['user_name'] == ''):
             ?>
-            <img class="img_auth" id="logo" src="#">
-            <a class="_auth" href="auth_form.php">вход</a>
+            <img class="img_auth" src="img/img_log_in.png">
+            <a class="auth_text" href="auth_form.php">вход</a>
             <?php else: ?>
             <a class="lk" href="blocks/exit.php"><?=$_COOKIE['user_name']?></a>
             <img class="img_lk" id="logo" src="#">
@@ -52,16 +50,37 @@
         </div>
         <div class="tarif_line"></div>
         <div class="tarif_1">
-            <div></div>
-            <img src="img/pic_t1.svg">
+            <div class="tarif_baner">
+                <div class="tarif_baner_bg"></div>
+                <p class="tarif_name">Дневной без подъёмника</p>
+                <div class="tarif_baner_line_horizontal"></div>
+                <p class="tarif_hour">300 ₽<br>час</p>
+                <p class="tarif_minets">180 ₽<br>30 мин</p>
+                <div class="tarif_baner_line_vertical"></div>
+            </div>
+            <img class="tarif_img" src="img/pic_t1.svg">
         </div>
         <div class="tarif_2">
-            <div></div>
-            <img src="img/pic_t2.png">
+            <div class="tarif_baner">
+                <div class="tarif_baner_bg"></div>
+                <p class="tarif_name">Дневной с подъёмником</p>
+                <div class="tarif_baner_line_horizontal"></div>
+                <p class="tarif_hour">400 ₽<br>час</p>
+                <p class="tarif_minets">230 ₽<br>30 мин</p>
+                <div class="tarif_baner_line_vertical"></div>
+            </div>
+            <img class="tarif_img" src="img/pic_t2.png">
         </div>
         <div class="tarif_3">
-            <div></div>
-            <img src="img/pic_t3.png">
+            <div class="tarif_baner">
+                <div class="tarif_baner_bg"></div>
+                <p class="tarif_name">Ночной тариф</p>
+                <div class="tarif_baner_line_horizontal"></div>
+                <p class="tarif_hour">550 ₽<br>час</p>
+                <p class="tarif_minets">300 ₽<br>30 мин</p>
+                <div class="tarif_baner_line_vertical"></div>
+            </div>
+            <img class="tarif_img" src="img/pic_t3.png">
         </div>
     </div>
 
