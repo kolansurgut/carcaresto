@@ -15,8 +15,8 @@
         <div class="navigation_menu">
             <a class="navigation_text_1" href="#">главная</a>
             <a class="navigation_text_2" href="#">тарифы</a>
-            <a class="navigation_text_3" href="#">уроки</a>
-            <a class="navigation_text_4" href="#">о нас</a>
+            <a class="navigation_text_3" href="#">о нас</a>
+            <a class="navigation_text_4" href="#">уроки</a>
             <a class="navigation_text_5" href="#">контакты</a>
         </div>
         <div  class="log_in">
@@ -91,5 +91,40 @@
         <p class="citata_text">Специально для вас мы подготовим расходные материалы и<br>инструменты, чтобы ремонт проходил наиболее комфортно.</p>
         <img class="citata_icon" src="img/citata_icon.png">
     </div>
+
+    <div class="about_us">
+        <div class="about_us_line"></div>
+        <div class="about_us_text">
+            <p class="about_us_text_1">О нас</p>
+            <p class="about_us_text_2">Сервис</p>
+            <p class="about_us_text_3">Car Care</p>
+            <p class="about_us_text_4">Мы предоставляем вам всё необходимое для осуществления ремонта своего автомобиля. Для консультаций на территории сервиса работает мастер широкого профиля, вы всегда можете обраиться к нему за помощью. На арендованом вами месте вас будет ждать форма, инструметы и расходные материалы.</p>
+        </div>
+        <div class="about_us_block_1">
+            <div class="about_us_block_bg"></div>
+            <p class="about_us_block_number">4</p>
+            <p class="about_us_block_text">Оборудованных<br>места</p>
+            <a class="about_us_block_link">Записаться</a>
+        </div>
+        <div class="about_us_block_2">
+            <div class="about_us_block_bg"></div>
+            <p class="about_us_block_number">2</p>
+            <p class="about_us_block_text">Места<br>с подъемником</p>
+            <a class="about_us_block_link">Записаться</a>
+        </div>
+        <div class="about_us_block_3">
+            <div class="about_us_block_bg"></div>
+            <p class="about_us_block_number">2</p>
+            <p class="about_us_block_text">Места без<br>подъемника</p>
+            <a class="about_us_block_link">Записаться</a>
+        </div>
+        <div class="about_us_block_4">
+            <div class="about_us_block_bg"></div>
+            <p class="about_us_block_number">2</p>
+            <p class="about_us_block_text">Специалиста</p>
+            <a class="about_us_block_link">Записаться</a>
+        </div>
+    </div>
+
     </body>
 </html>
