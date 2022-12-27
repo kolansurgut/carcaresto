@@ -16,8 +16,8 @@
             <a class="navigation_text_1" href="#">главная</a>
             <a class="navigation_text_2" href="#tarifs">тарифы</a>
             <a class="navigation_text_3" href="#about_as">о нас</a>
-            <a class="navigation_text_4" href="#">уроки</a>
-            <a class="navigation_text_5" href="#">контакты</a>
+            <a class="navigation_text_4" href="#listen">уроки</a>
+            <a class="navigation_text_5" href="#contact">контакты</a>
         </div>
         <div  class="log_in">
             <?php
@@ -86,13 +86,13 @@
 
     <div class="citata">
         <div class="citata_line_up"></div>
-        <div class="citata_line_down"></div>
+        <div class="citata_line_down" id="about_as"></div>
         <div class="citata_fon"></div>
         <p class="citata_text">Специально для вас мы подготовим расходные материалы и<br>инструменты, чтобы ремонт проходил наиболее комфортно.</p>
         <img class="citata_icon" src="img/citata_icon.png">
     </div>
 
-    <div class="about_us" id="about_as">
+    <div class="about_us">
         <div class="about_us_line"></div>
         <div class="about_us_text">
             <p class="about_us_text_1">О нас</p>
@@ -122,8 +122,41 @@
             <div class="about_us_block_bg"></div>
             <p class="about_us_block_number">2</p>
             <p class="about_us_block_text">Специалиста</p>
-            <a class="about_us_block_link">Записаться</a>
+            <a class="about_us_block_link" id="listen">Записаться</a>
         </div>
+    </div>
+
+    <div class="video">
+        <div class="video_bg"></div>
+        <p class="video_text">ВИДЕО УРОКИ</p>
+        <div class="video_line"></div>
+
+        <div class="video_wrap_list">
+            <ul class="video_list">
+                <li class="video_item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/V7CRU60DCYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ow3G0PTm6SU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GWbkByQ0OXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/soo0BcMaGOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ7AHyvbK9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer" id="contact">
+        <p class="footer_mail">carcare@mail.ru</p>
+        <p class="footer_number">+7 (XXX) XXX-XX-XX</p>
+        <p class="footer_city">г.Сургут</p>
     </div>
 
     </body>
