@@ -316,11 +316,11 @@
         opacity: 0;
         width: 1840px;
         height: 3000px;
-        z-index: -1;
+        z-index: -10;
         background-color: black;
         position: absolute;
         left: -1680px;
-        top: -100px;
+        top: -10000px;
 
     }
 
@@ -335,6 +335,7 @@
     #check_auth:checked ~ .auth_bg{
         opacity: 0.6;
         z-index: 99;
+        top: -100px;
     }
 
     #check_reg:checked ~ .form_reg{
