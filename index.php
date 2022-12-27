@@ -14,8 +14,8 @@
         <img class="logo" src="img/logo.png">
         <div class="navigation_menu">
             <a class="navigation_text_1" href="#">главная</a>
-            <a class="navigation_text_2" href="#">тарифы</a>
-            <a class="navigation_text_3" href="#">о нас</a>
+            <a class="navigation_text_2" href="#tarifs">тарифы</a>
+            <a class="navigation_text_3" href="#about_as">о нас</a>
             <a class="navigation_text_4" href="#">уроки</a>
             <a class="navigation_text_5" href="#">контакты</a>
         </div>
@@ -44,7 +44,7 @@
     </div>
 
     <div class="all_tarif">
-        <div class="tarif_top">
+        <div class="tarif_top" id="tarifs">
             <p class="tarif_text_1">ТАРИФЫ</p>
             <p class="tarif_text_2">Что мы предлогаем?</p>
         </div>
@@ -92,7 +92,7 @@
         <img class="citata_icon" src="img/citata_icon.png">
     </div>
 
-    <div class="about_us">
+    <div class="about_us" id="about_as">
         <div class="about_us_line"></div>
         <div class="about_us_text">
             <p class="about_us_text_1">О нас</p>
