@@ -27,7 +27,7 @@
                 <button class="register_btn" type="submit">Регистрация</button>
                 <a class="back_btn" href="index.php">Назад</a>
                 <br>
-                <p class="reg_text">Уже есть аккаунт? <a class="reg_btn" href="auth_form.php">Войдите.</a></p>
+<!--                <p class="reg_text">Уже есть аккаунт? <a class="reg_btn" href="auth_form.php">Войдите.</a></p>-->
             </form>
         </div>
     </body>

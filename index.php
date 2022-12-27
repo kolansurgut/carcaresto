@@ -23,8 +23,53 @@
             <?php
             if($_COOKIE['user_name'] == ''):
             ?>
+
             <img class="img_auth" src="img/img_log_in.png">
-            <a class="auth_text" href="auth_form.php">вход</a>
+            <div class="authorization">
+                <input type="checkbox" id="check_auth">
+                <label class="auth_btn" for="check_auth">вход</label>
+                <div class="auth_bg"></div>
+                <form action="blocks/auth.php" method="post" class="form_auth">
+
+                    <div class="form_group">
+                        <input type="text" class="phone_auth" id="phone" name="phone" placeholder="Номер телефона">
+                    </div>
+
+                    <div class="form_group">
+                        <input type="text" class="password_auth" id="password" name="password" placeholder="Пароль">
+                    </div>
+
+                    <button class="auth_submit" type="submit">Войти</button>
+                    <label class="back_btn_auth" for="check_auth">+</label>
+                    <br>
+                    <p class="link_reg_text">Нет аккаунта? <label class="link_reg" for="check_reg">Зарегистрируйтесь.</label></p>
+                </form>
+
+                <input type="checkbox" id="check_reg">
+                <form action="blocks/register.php" method="post" class="form_reg">
+                    <div class="form-group">
+                        <input type="text" class="phone_reg" id="phone" name="phone" placeholder="Номер телефона">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="name_reg" id="name" name="name" placeholder="ФИО">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="password_reg" id="password" name="password" placeholder="Пароль">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="password_repeat_reg" id="password_repeat" name="password_repeat" placeholder="Повторите пароль">
+                    </div>
+
+                    <button class="reg_submit" type="submit">Регистрация</button>
+                    <label class="back_btn_reg" for="check_reg">+</label>
+                    <br>
+                    <p class="link_auth_text">Уже есть аккаунт? <label class="link_auth" for="check_reg">Войдите.</label></p>
+                </form>
+            </div>
+
             <?php else: ?>
             <a class="lk" href="blocks/exit.php"><?=$_COOKIE['user_name']?></a>
             <img class="img_lk" id="logo" src="#">
@@ -46,7 +91,7 @@
     <div class="all_tarif">
         <div class="tarif_top" id="tarifs">
             <p class="tarif_text_1">ТАРИФЫ</p>
-            <p class="tarif_text_2">Что мы предлогаем?</p>
+            <p class="tarif_text_2">Что мы предлагаем?</p>
         </div>
         <div class="tarif_line"></div>
         <div class="tarif_1">
@@ -128,7 +173,7 @@
 
     <div class="video">
         <div class="video_bg"></div>
-        <p class="video_text">ВИДЕО УРОКИ</p>
+        <p class="video_text">ВИДЕОУРОКИ</p>
         <div class="video_line"></div>
 
         <div class="video_wrap_list">
