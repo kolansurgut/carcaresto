@@ -8,11 +8,11 @@
     $auth = $mysql->query("SELECT * FROM `users` WHERE `phone` = '$phone' AND `password` = '$password'");
     $user = $auth->fetch_assoc();
 
-    if(count($user) == 0) {
-        header("Location: /auth_form.php");
+    if(count($user) === 0) {
+        echo "Неверный номер телефона или пароль";
     }
 
-    setcookie('user_name', $user['name'], time() + 60 * 60 * 24 * 365, '/');
+    setcookie('phone', $phone, time() + 60 * 60 * 24 * 365, '/');
 
     $mysql->close();
     header("Location: /");

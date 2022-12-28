@@ -21,7 +21,7 @@
         </div>
         <div  class="log_in">
             <?php
-            if($_COOKIE['user_name'] == ''):
+            if($_COOKIE['phone'] == ''):
             ?>
 
             <img class="img_auth" src="img/img_log_in.png">
@@ -71,8 +71,17 @@
             </div>
 
             <?php else: ?>
-            <a class="lk" href="blocks/exit.php"><?=$_COOKIE['user_name']?></a>
-            <img class="img_lk" id="logo" src="#">
+            <a class="lk"><?=$_COOKIE['phone']?></a>
+            <input type="checkbox" id="check_lk">
+            <label class="img_lk" for="check_lk"></label>
+
+            <div class="lk_menu">
+                <a class="bron">Текущие заказы</a><br>
+                <a class="bron">Забронировать</a><br>
+                <a class="bron">История</a><br>
+                <a href="blocks/exit.php" class="exit">Выход</a>
+            </div>
+
             <?php endif; ?>
         </div>
     </div>
